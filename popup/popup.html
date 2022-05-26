@@ -5,19 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="popup.css">
-  <title>pomodoro Timer</title>
+  <title>Pomodoro Timer</title>
 </head>
 <body>
   <div class="header">
     <img src="../pomodoro.png">
   </div>
   <h1>00:00</h1>
-  <button>Start Timer</button>
-  <button>Add Task</button>
-  <div>
-    <input type="text">
-    <input type="button" value="X">
-  </div>
+  <button id="start-timer-btn">Start Timer</button>
+  <button id="add-task-btn">Add Task</button>
+  <div id="task-container"></div>
 </body>
 <script src="popup.js"></script>
 </html>
